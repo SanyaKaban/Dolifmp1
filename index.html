@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мої сторінки</title>
+    <style>
+        /* Загальні стилі */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+            text-align: center; /* Вирівнювання тексту по центру */
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center; /* Вирівнювання тексту по центру */
+        }
+
+        img {
+            display: block; /* Забезпечення блокового відображення для картинок */
+            margin: 0 auto; /* Вирівнювання картинок по центру */
+            max-width: 100%; /* Забезпечення адаптивного зображення */
+            height: auto; /* Забезпечення адаптивного зображення */
+        }
+
+        /* Стилі для навігації */
+        nav {
+            background-color: #333;
+            margin-bottom: 20px; /* Доданий відступ нижнього поля для відділення від вмісту */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Вирівнювання по центру */
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Стилі для посилань */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Медіазапити для адаптивного дизайну */
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 90%; /* Збільшення ширини контейнера на малих екранах */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Навігаційне меню -->
+<nav>
+    <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="page2.html">Сторінка 2</a></li>
+        <li><a href="page3.html">Сторінка 3</a></li>
+        <li><a href="page4.html">Сторінка 4</a></li>
+        <li><a href="page5.html">Сторінка 5</a></li>
+    </ul>
+</nav>
+
+<!-- Сторінка 1 -->
+<main id="page1">
+    <header>
+        <h1>Вітаю на моїй головній сторінці!</h1>
+    </header>
+    <section class="container">
+        <img src="photo1.jpg" alt="Моя фотографія">
+    </section>
+</main>
+
+<!-- Сторінка 2 -->
+<main id="page2">
+    <header>
+        <h1>Сторінка 2</h1>
+    </header>
+    <section class="container">
+        <h2>Чесно кажучи я не пам'ятаю, де це ми, але мені сподобалася ця фотографія</h2>
+        <img src="photo2.jpg" alt="Фотографія 2">
+    </section>
+</main>
+
+<!-- Сторінка 3 -->
+<main id="page3">
+    <header>
+        <h1>Сторінка 3</h1>
+    </header>
+    <section class="container">
+        <h2>Це я в 9 класі на МАТ регаті, тут було дуже весело і круто</h2>
+        <img src="photo3.jpg" alt="Фотографія 3">
+    </section>
+</main>
+
+<!-- Сторінка 4 -->
+<main id="page4">
+    <header>
+        <h1>Сторінка 4</h1>
+    </header>
+    <section class="container">
+        <h2>Це ми вже після закінчення 10 класу вирішили поїхати у парк посмажити шашлик</h2>
+        <img src="photo4.jpg" alt="Фотографія 4">
+    </section>
+</main>
+
+<!-- Сторінка 5 -->
+<main id="page5">
+    <header>
+        <h1>Сторінка 5</h1>
+    </header>
+    <section class="container">
+        <h2>На цій фотографії ми з класом проходили квест кімнату, мені дуже сподобалося</h2>
+        <img src="photo5.jpg" alt="Фотографія 5">
+    </section>
+</main>
+
+</body>
+</html>
